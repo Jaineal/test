@@ -15,9 +15,6 @@ public class Account {
 	// New Comment for balance
 	private double balance;
 	private String name;
-	public Account(double balance) {
-		this("Unknown", balance);
-	}
 	
 	public double getBalance() {
 		return balance;
